@@ -1,7 +1,7 @@
 /* IMPOSTAZIONI GENERALI */
 body{
     font-family: 'Poppins', sans-serif;
-    font-size: 100%;
+    font-size: 2vh;
     text-align: center;
     font-weight: bolder;
     line-height: 1;
@@ -10,19 +10,21 @@ body{
 
 /* HEADER */
 header{
-    background-color: rgb(57, 132, 161);
+    background-color:  rgb(57, 132, 161);
+    margin: 0 auto;
+    width: 50%;
 }
 
 /* MAIN */
 main{
-    border:0 ;
     background-color: white;
-    padding: 50vh;
+    margin: 0 auto;
+    width:50%;
 }
 hr{
     border:none;
 }
-h1{ 
+h1 h2{ 
     margin: 10px;
     padding: 10px;
     border: 10px;
@@ -31,10 +33,9 @@ h1{
     vertical-align: baseline;
 }
 p{
-    margin: 5px;
-    padding: 5px;
-    border: 5px;
-    font-size: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 10px;
     font: inherit;
     vertical-align: baseline;
 }
@@ -42,9 +43,7 @@ p{
 
 /* TABELLE */
 table{
-    border-collapse: collapse;
-    border-spacing:0;
-    line-height: 1;
+    
 }
 thead{
     padding: auto;
@@ -56,9 +55,11 @@ thead{
 
 /* FOOTER */
 footer {
-    border-top: 0%;
-    display: block;
     color: white;
     background-color: rgb(57, 132, 161);
-    line-height: 1;
+    margin: 0 auto;
+    width:50%;
+}
+address{
+
 }
